@@ -17,7 +17,7 @@ jobs:
           node-version: 16
       - run: npm install
       - run: |
-          echo @govind:https://npm.pkg.github.com/ > .npmrc
+          echo @govindarajanv:https://npm.pkg.github.com/ > .npmrc
           echo '//npm.pkg.github.com/:_authToken=${NPM_TOKEN}' >> .npmrc
       - run: npm publish
         working-directory: '.'
