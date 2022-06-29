@@ -17,8 +17,8 @@ jobs:
           node-version: 16
       - run: npm install
       - run: |
-          echo @govindarajanv:registry=https://npm.pkg.github.com/ > .npmrc
-          echo '//npm.pkg.github.com/:_authToken=${NPM_TOKEN}' >> .npmrc
+          echo "@govindarajanv:registry=https://npm.pkg.github.com/" > .npmrc
+          echo "//npm.pkg.github.com/:_authToken=${NPM_TOKEN}" >> .npmrc
         env:
           NPM_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
       - run: npm publish
