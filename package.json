@@ -1,7 +1,7 @@
 {
-  "name": "hello-world-npm-module",
+  "name": "hello-world-npm-module-govind",
   "version": "1.0.0",
-  "description": "Hello World NPM Module",
+  "description": "Hello World NPM Module by Govind",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,8 +19,5 @@
   "devDependencies": {
     "chai": "^4.3.6",
     "mocha": "^6.1.4"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
   }
 }
