@@ -13,4 +13,5 @@ jobs:
         with:
           node-version: 16
       - run: npm install
+      - run: npm install mocha chai --save-dev
       - run: mocha test
