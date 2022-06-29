@@ -1,6 +1,6 @@
 {
-  "name": "hello-world-npm-module-govind",
-  "version": "1.0.0",
+  "name": "@govindarajanv/hello-world-npm-module",
+  "version": "1.0.1",
   "description": "Hello World NPM Module by Govind",
   "main": "index.js",
   "scripts": {
