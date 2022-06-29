@@ -21,10 +21,8 @@ jobs:
           echo "//npm.pkg.github.com/:_authToken=${NPM_TOKEN}" >> .npmrc
         env:
           NPM_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
-      - run: npm login --scope=@govindarajanv --registry=https://npm.pkg.github.com
-        env:
-          NPM_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
+      - uses: jgierer12/npm-auth-gpr@v1
+        with:
+          token: ${{ secrets.PUBLISH_TOKEN }}
+      - run: npm install
       - run: npm publish
-        working-directory: '.'
-        env:
-          NPM_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
