@@ -19,5 +19,8 @@
   "devDependencies": {
     "chai": "^4.3.6",
     "mocha": "^6.1.4"
+  },
+  "dependencies": {
+    "@govindarajanv/hello-world-npm-module": "^1.0.2"
   }
 }

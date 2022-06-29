@@ -5,13 +5,14 @@ A Simple Hello World Example Package
 Install via NPM:
 
 ```bash
-npm install simple-hello-world-example
+npm install @govindarajanv/hello-world-npm-module
 
 ```
 
 ## Usage
 
 #### javascript
+
 
 ```javascript
 
